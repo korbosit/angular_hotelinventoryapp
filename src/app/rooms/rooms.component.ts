@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { Room, RoomList } from './rooms';
 // import { CommonModule } from '@angular/common';
-import { NgIf, NgFor } from '@angular/common';
+import { NgIf, NgFor, NgClass } from '@angular/common';
+
 @Component({
   selector: 'hinv-rooms',
   standalone: true,
-  imports: [NgIf, NgFor],
+  imports: [NgIf, NgFor, NgClass],
   templateUrl: './rooms.component.html',
   styleUrl: './rooms.component.scss',
 })
